@@ -1,4 +1,83 @@
-body {
-  background-color: teal;
-  color: #fff;
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #212121;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --text-color: #757575;
 }
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+/*лого*/
+.logo {
+  color: #000000;
+}
+
+/*список*/
+.list {
+  list-style: none;
+}
+
+/*навигация сайта*/
+.site-nav a {
+  color: var(--primary-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+/*обратная связь*/
+.contacts-nav a {
+  color: var(--primary-text-color);
+}
+.contacts-nav a:hover,
+.contacts-nav a:focus {
+  color: var(--accent-color);
+}
+
+/*секции*/
+.section {
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*герой*/
+.hero {
+  background-color: #2f303a;
+  color: var(--white-color);
+}
+.hero-title {
+  color: var(--white-color);
+}
+
+/*button*/
+.button {
+  color: var(--hero-color);
+  background-color: var(--accent-color);
+}
+
+.features-list .title {
+  color: var(--title-text-color);
+}
+
+.work-list .title {
+  color: var(--title-text-color);
+}
+
+.comand-list .title {
+  color: var(--title-text-color);
+}
+
+/*цвет основного текста #212121*/
+/*вторичный цвет текста #757575*/
+/*белый цвет #FFFFFF*/
+/*акцент #2196F3*/
+/*цвет фона героя #2F303A*/
+/* вторичный цвет фона #F5F4FA*/
+/*фон футера #000000*/ ;
