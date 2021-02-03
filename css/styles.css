@@ -1,9 +1,18 @@
+/*цвет основного текста #212121*/
+/*вторичный цвет текста #757575*/
+/*белый цвет #FFFFFF*/
+/*акцент #2196F3*/
+/*цвет фона героя #2F303A*/
+/*вторичный цвет фона #F5F4FA*/
+/*фон футера #2F303A*/
+
 :root {
   --primary-text-color: #212121;
   --title-text-color: #212121;
+  --text-color: #757575;
   --white-color: #ffffff;
   --accent-color: #2196f3;
-  --text-color: #757575;
+  --footer-color: #2f303a;
 }
 body {
   background-color: #ffffff;
@@ -28,10 +37,14 @@ body {
 .site-nav a:focus {
   color: var(--accent-color);
 }
+/*подсветка активной страницы*/
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 
 /*обратная связь*/
 .contacts-nav a {
-  color: var(--primary-text-color);
+  color: var(--text-color);
 }
 .contacts-nav a:hover,
 .contacts-nav a:focus {
@@ -56,9 +69,14 @@ body {
   color: var(--white-color);
 }
 
+.footer {
+  background-color: var(--footer-color);
+  color: var(--white-color);
+}
+
 /*button*/
 .button {
-  color: var(--hero-color);
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
@@ -73,11 +91,3 @@ body {
 .comand-list .title {
   color: var(--title-text-color);
 }
-
-/*цвет основного текста #212121*/
-/*вторичный цвет текста #757575*/
-/*белый цвет #FFFFFF*/
-/*акцент #2196F3*/
-/*цвет фона героя #2F303A*/
-/* вторичный цвет фона #F5F4FA*/
-/*фон футера #000000*/ ;
