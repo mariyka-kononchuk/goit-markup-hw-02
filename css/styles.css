@@ -52,7 +52,7 @@ body {
 .logo-header {
   color: var(--logo-color);
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -112,6 +112,17 @@ body {
   text-transform: uppercase;
 }
 
+/*кнопка на странице Студия*/
+.button-studia {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+}
+
 /*секции*/
 .section {
   color: var(--primary-text-color);
@@ -126,8 +137,11 @@ body {
   text-align: center;
 }
 
-/*особенности*/
-.features-title {
+/*перечень особенностей*/
+.features-list {
+  text-align: left;
+}
+.features-list h3{
   color: var(--title-text-color)
   font-weight: 700;
   font-size: 14px;
@@ -135,7 +149,7 @@ body {
   text-transform: uppercase;
 }
 
-.features-text {
+.features-list p{
   color: var(--text-color);
   font-weight: 400;
   font-size: 14px;
@@ -143,28 +157,31 @@ body {
 }
 
 /*список команды*/
- .command-title {
+.team-list {
+  line-height: 1.19;
+  text-align: center;
+}
+.team-list h3{
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
   text-align: center;
 }
 
-.command-text {
+.team-list p{
   color: var(--text-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.19;
   text-align: center;
 }
+
 
 /*футер*/
 .footer {
   background-color: var(--background-footer-color);
   color: var(--white-color);
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -172,17 +189,6 @@ body {
   color: var(--footer-text-color);
 }
 
-/*кнопки*/
-/*кнопка на странице Студия*/
-.button-studia {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.9;
-  align-items: center;
-  text-align: center;
-}
 /*радио-кнопки на странице Портфолио*/
 .button-portfolio {
   color: var(--primary-text-color);
@@ -201,15 +207,17 @@ body {
   background-color: var(--accent-color);
 }
 
+/*заголовки в списке портфолио*/
 .portfolio-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
+/*текст в списке портфолио*/
 .portfolio-text {
   color: var(--text-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
